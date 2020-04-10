@@ -1,0 +1,53 @@
+li {
+    font-size: 20px;
+    display: inline;
+    border-right: 2px solid black;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+li:nth-child(4) {
+    border: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+section {
+  display: inline;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  border-right: 4px solid #F51720;
+  padding: 5px;
+  background-color: #F8D210;
+}
+
+img:hover {
+    background-color: cyan;
+}
+
+form {
+  margin-top:20px;
+  border-top: 5px solid gray;
+  display:block-inline;
+  width: 414px;
+}
+
+input {
+  display:block;
+  width:400px;
+  padding:5px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: antiquewhite;
+  width: 414px;
+  padding:5px;
+}
